@@ -1,0 +1,48 @@
+{
+  "_from": "node-red-contrib-ams-decoder",
+  "_id": "node-red-contrib-ams-decoder@1.1.3",
+  "_inBundle": false,
+  "_integrity": "sha512-plcIlA61v9Nt5iGOSTK1pWKmBTYaiagLp+Vk2TgXAhG8eeamnYjejbefTNMw87zVFXWrtGPVw5a33kN/ieA5NQ==",
+  "_location": "/node-red-contrib-ams-decoder",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "node-red-contrib-ams-decoder",
+    "name": "node-red-contrib-ams-decoder",
+    "escapedName": "node-red-contrib-ams-decoder",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/node-red-contrib-ams-decoder/-/node-red-contrib-ams-decoder-1.1.3.tgz",
+  "_shasum": "3a1bca771fe9e530eace7740cceb58c0ec3e1b30",
+  "_spec": "node-red-contrib-ams-decoder",
+  "_where": "/Users/christopherstenersen",
+  "author": {
+    "name": "Christopher Stenersen"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Node for decoding norwegian ams energy meters",
+  "keywords": [
+    "node-red"
+  ],
+  "license": "ISC",
+  "name": "node-red-contrib-ams-decoder",
+  "node-red": {
+    "nodes": {
+      "Aidon": "src/ams_decoder_aidon.js",
+      "Kamstrup ": "src/ams_decoder_kamstrup.js",
+      "Kaifa ": "src/ams_decoder_kaifa.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.3"
+}

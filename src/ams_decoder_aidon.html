@@ -1,0 +1,27 @@
+<script type="text/javascript">
+    RED.nodes.registerType('AMS Decoder Aidon',{
+        category: 'Energy',
+        color: '#3FADB5',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "file.png",
+        label: function() {
+            return this.name||"Aidon";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="AMS Decoder Aidon">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="AMS Decoder Aidon">
+    <p>Node that decodes norwegian Aidon smart meters
+    </p>
+</script>
